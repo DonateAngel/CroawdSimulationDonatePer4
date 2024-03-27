@@ -26,7 +26,7 @@ public class DropCylinder : MonoBehaviour
 
                 foreach(GameObject a in agents)
                 {
-                    a.GetComponent<AIControl>().DectetNewObstacle(hitInfo.point);
+                  //  a.GetComponent<AIControl>().DectetNewObstacle(hitInfo.point);
                 }
             }
         }
